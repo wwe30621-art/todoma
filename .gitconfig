@@ -1,0 +1,13 @@
+[gui]
+	recentrepo = C:/Users/User/123
+[user]
+	name = sbiba
+	email = wwe30621@gmail.com
+[core]
+	autocrlf = true
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = false
+	keepBackup = false
