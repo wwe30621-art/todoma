@@ -1,6 +1,6 @@
 <template>
   <div style="max-width: 360px; margin: 40px auto;">
-    <h1>Register</h1>
+    <h1>註冊</h1>
 
     <div style="display: grid; gap: 12px; margin-top: 16px;">
       <label>
@@ -26,7 +26,7 @@
       </label>
 
       <button type="button" @click="onRegister" style="padding: 10px;">
-        Register
+        註冊
       </button>
 
       <p v-if="errorMsg" style="color: #b00020; margin: 0;">

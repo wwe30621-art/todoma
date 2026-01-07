@@ -45,6 +45,12 @@ export function useTasks() {
   function clearAllTasks() {
     sync([]);
   }
+  function clearCompletedTasks() {
+  tasks.value = tasks.value.filter((t) => !t.done);
+  sync(tasks.value);
+}
+
+
 
   return {
     tasks,
@@ -53,5 +59,6 @@ export function useTasks() {
     toggleTask,
     removeTask,
     clearAllTasks,
+    clearCompletedTasks,
   };
 }
